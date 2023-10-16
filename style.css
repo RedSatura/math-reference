@@ -1,0 +1,32 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	background-color: #ff8cc8;
+}
+
+h1 {
+	margin: 0;
+}
+
+h3 {
+	display: inline;
+}
+
+main {
+	padding: 10px;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	background-color: pink;
+	height: 5vh;
+}
+
+#result {
+	display: inline;
+}
