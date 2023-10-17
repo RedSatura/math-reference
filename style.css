@@ -11,7 +11,13 @@ h1 {
 	margin: 0;
 }
 
+h2 {
+	display: inline;
+	margin: 0;
+}
+
 h3 {
+	margin: 0;
 	display: inline;
 }
 
@@ -27,6 +33,6 @@ main {
 	height: 5vh;
 }
 
-#result {
+button {
 	display: inline;
 }

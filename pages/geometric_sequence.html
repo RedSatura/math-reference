@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Geometric Sequence Solver</title>
+		<title>Geometric Sequence Solvers</title>
 		<link rel="stylesheet" href="../style.css">
 	</head>
 	<body>
@@ -9,21 +9,49 @@
 			<a href="../index.html"><h1>Math Reference</h1></a>
 		</section>
 		<main>
-			<section>
-				<h1>Geometric Sequence Solver</h1>
-				<h2>Finding the nth term</h2>
+			<h1>Geometric Sequence Solvers</h1>
+			<div>
+				<h2>Nth Term Solver</h2>
 				<form>
 					<label>Common Ratio</label>
-					<input type="number"><br>
-					<label>1st Term</label>
-					<input type="number"><br>
+					<input type="number" class="geometric-nth-term"><br>
+					<label>First Term</label>
+					<input type="number" class="geometric-nth-term"><br>
 					<label>Number of Terms</label>
-					<input type="number"><br>
-					<button type="button" id="submit">Submit</button>
-					</form>
+					<input type="number" class="geometric-nth-term"><br>
+					<button type="button" id="submit-geometric-nth-term">Submit</button>
+				</form>
 				<br>
-				<h3>The nth term is </h3><h2 id="result">0</h2>
-			</section>
+				<h3>The nth term is </h3><h2 id="result-geometric-nth-term">0</h2>
+			</div>
+			<hr>
+			<div>
+				<h2>Geometric Mean Solver</h2>
+				<form>
+					<label>First Number</label>
+					<input type="number" class="geometric-mean"><br>
+					<label>Second Number</label>
+					<input type="number" class="geometric-mean"><br>
+					<button type="button" id="submit-geometric-mean">Submit</button>
+				</form>
+				<br>
+				<h3>The geometric mean is </h3><h2 id="result-geometric-mean">0</h2>
+			</div>
+			<hr>
+			<div>
+				<h2>Geometric Series Solver</h2>
+				<form>
+					<label>Number of terms (leave blank if infinite)</label>
+					<input type="number" class="geometric-series"><br>
+					<label>First Term</label>
+					<input type="number" class="geometric-series"><br>
+					<label>Common Ratio</label>
+					<input type="number" class="geometric-series"><br>
+					<button type="button" id="submit-geometric-series">Submit</button>
+				</form>
+				<br>
+				<h3>The sum of the terms is </h3><h2 id="result-geometric-series">0</h2>
+			</div>
 		</main>
 		<script src="geometric_sequence.js"></script>
 	</body>
