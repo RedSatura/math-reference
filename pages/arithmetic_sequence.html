@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Arithmetic Sequence Solvers</title>
+		<link rel="stylesheet" href="../style.css">
+	</head>
+	<body>
+		<section class="navbar">
+			<a href="../index.html"><h1>Math Reference</h1></a>
+		</section>
+		<main>
+			<h1>Arithmetic Sequence Solvers</h1>
+			<br>
+			<div>
+				<h2>Nth Term Solver</h2>
+				<form>
+					<label>First Term</label><br>
+					<input type="number" class="arithmetic-nth-term"><br>
+					<label>Number Of Terms</label><br>
+					<input type="number" class="arithmetic-nth-term"><br>
+					<label>Common Difference</label><br>
+					<input type="number" class="arithmetic-nth-term"><br>
+					<button type="button" id="submit-arithmetic-nth-term">Submit</button>
+				</form>
+				<br>
+				<h3>The nth term is </h3><h2 id="result-arithmetic-nth-term">0</h2>
+			</div>
+			<hr>
+			<div>
+				<h2>Arithmetic Mean Solver</h2>
+				<form>
+					<label>Numbers (seperate by comma ex. 1,2,3,...)</label><br>
+					<input type="text" class="arithmetic-mean"><br>
+					<button type="button" id="submit-arithmetic-mean">Submit</button>
+				</form>
+				<br>
+				<h3>The arithmetic mean is </h3><h2 id="result-arithmetic-mean">0</h2>
+			</div>
+			<hr>
+			<div>
+				<h2>Arithmetic Series Solver</h2>
+				<form>
+					<label>Last Term (leave blank if not given)</label><br>
+					<input type="number" class="arithmetic-series"><br>
+					<label>Number of terms</label><br>
+					<input type="number" class="arithmetic-series"><br>
+					<label>First Term</label><br>
+					<input type="number" class="arithmetic-series"><br>
+					<label>Common Difference</label><br>
+					<input type="number" class="arithmetic-series"><br>
+					<button type="button" id="submit-arithmetic-series">Submit</button>
+				</form>
+				<br>
+				<h3>The sum of the terms is </h3><h2 id="result-arithmetic-series">0</h2>
+			</div>
+		</main>
+		<script src="arithmetic_sequence.js"></script>
+	</body>
+</html>

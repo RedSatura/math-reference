@@ -48,6 +48,10 @@ function computeGeometricSeries () {
 	}
 }
 
+function addFraction(fraction) {
+	
+}
+
 document.getElementById("submit-geometric-nth-term").addEventListener("click", computeNthTerm);
 document.getElementById("submit-geometric-mean").addEventListener("click", computeGeometricMean);
 document.getElementById("submit-geometric-series").addEventListener("click", computeGeometricSeries);
