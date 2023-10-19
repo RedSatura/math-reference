@@ -27,6 +27,10 @@ h3 {
 	display: inline;
 }
 
+footer {
+	text-align: center;
+}
+
 main {
 	padding: 10px;
 }
@@ -34,7 +38,7 @@ main {
 .navbar {
 	display: flex;
 	align-items: center;
-	padding: 10px;
+	padding: 20px;
 	background-color: pink;
 	height: 5vh;
 	width: 100vw;
@@ -71,8 +75,7 @@ button {
 .link-container {
 	display: grid;
 	margin: 25px;
-	width: 75vw;
-	min-width: 400px;
+	width: 100%;
 	background-color: #808080;
 	grid-template-columns: 1fr 1fr;
 	gap: 50px;
@@ -85,9 +88,19 @@ button {
 
 .quarter {
 	min-width: 150px;
+	padding: 20px;
 }
 
 .link-container-container {
 	display: flex;
 	justify-content: center;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+	.link-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	
 }
